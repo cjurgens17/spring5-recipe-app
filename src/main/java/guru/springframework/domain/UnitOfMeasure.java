@@ -10,7 +10,7 @@ public class UnitOfMeasure {
 
     private String uom;
 
-    private String Description;
+    private String description;
 
 
 
@@ -31,10 +31,10 @@ public class UnitOfMeasure {
     }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
 
     public void setDescription(String description) {
-        Description = description;
+        this.description = description;
     }
 }
